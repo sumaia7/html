@@ -1,0 +1,16 @@
+.bangladesh{
+    background-color: green;
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+.bangladesh::after {
+    content: "";
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    left: 145px;
+    top: 88px;
+}
